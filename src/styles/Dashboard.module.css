@@ -1,0 +1,57 @@
+.navbar h1{
+  text-align: center;
+  
+}
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .sidebar {
+      display: none;
+    }
+  
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+   
+   /* styles/Dashboard.module.css */
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.icon {
+  font-size: 24px;
+}
+.content {
+  margin-top: 12px;
+}
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.value {
+  font-size: 24px;
+  color: #4CAF50;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+  }
+  
+  .layout {
+    flex-direction: column;
+  }
+
+  .card {
+    margin: 8px;
+  }
+}

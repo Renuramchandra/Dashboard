@@ -1,0 +1,30 @@
+/* styles/Sidebar.module.css */
+.sidebar {
+    background-color: #f4f4f4; /* Background color for sidebar */
+    padding: 20px; /* Padding for sidebar */
+    width: 250px; /* Width of sidebar */
+    height: 100vh; /* Full height */
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Optional shadow */
+}
+
+.title {
+    font-size: 20px; /* Title font size */
+    margin-bottom: 15px; /* Space below title */
+}
+
+.navLinks {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.navLinks li a {
+    display: block; /* Make links fill the width */
+    padding: 10px; /* Padding for each link */
+    color: #333; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+.navLinks li a:hover {
+    background-color: #ddd; /* Highlight on hover */
+}
